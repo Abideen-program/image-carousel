@@ -5,9 +5,10 @@
 }
 
 body{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    place-items: center;
 }
 
 .slider{
@@ -15,7 +16,6 @@ body{
     max-width: 800px;
     height: 350px;
     position: relative;
-    border: 2px solid red;
     overflow: hidden;
 }
 
@@ -24,6 +24,7 @@ body{
     max-width: 800px;
     height: 350px;
     position: absolute;
+    transition: all 0.5s;
 }
 
 .slide img{
